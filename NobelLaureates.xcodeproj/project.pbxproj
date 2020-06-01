@@ -9,12 +9,28 @@
 /* Begin PBXBuildFile section */
 		C08047D423F9430500784035 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08047D323F9430500784035 /* AppDelegate.swift */; };
 		C08047D623F9430500784035 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08047D523F9430500784035 /* SceneDelegate.swift */; };
-		C08047D823F9430500784035 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08047D723F9430500784035 /* ViewController.swift */; };
-		C08047DB23F9430500784035 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C08047D923F9430500784035 /* Main.storyboard */; };
+		C08047D823F9430500784035 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08047D723F9430500784035 /* MainViewController.swift */; };
 		C08047DD23F9430700784035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C08047DC23F9430700784035 /* Assets.xcassets */; };
 		C08047E023F9430700784035 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C08047DE23F9430700784035 /* LaunchScreen.storyboard */; };
 		C08047EB23F9430700784035 /* NobelLaureatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08047EA23F9430700784035 /* NobelLaureatesTests.swift */; };
 		C08047F623F9430700784035 /* NobelLaureatesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08047F523F9430700784035 /* NobelLaureatesUITests.swift */; };
+		C080480423F9436100784035 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080480323F9436100784035 /* MainViewModel.swift */; };
+		C080480623F9437900784035 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080480523F9437900784035 /* ApiService.swift */; };
+		C080480823F9439800784035 /* nobel-prize-laureates.json in Resources */ = {isa = PBXBuildFile; fileRef = C080480723F9439800784035 /* nobel-prize-laureates.json */; };
+		C080480A23F943B100784035 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080480923F943B100784035 /* Constant.swift */; };
+		C080480C23F9446400784035 /* ApiServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080480B23F9446400784035 /* ApiServiceTests.swift */; };
+		C080480E23F94BAB00784035 /* LaureateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080480D23F94BAB00784035 /* LaureateCell.swift */; };
+		C080481023F94BDB00784035 /* LaureateCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080480F23F94BDB00784035 /* LaureateCellViewModel.swift */; };
+		C080483523F96F6400784035 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C080483023F96F0900784035 /* Lato-Black.ttf */; };
+		C080483623F96F6400784035 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C080482E23F96F0800784035 /* Lato-BlackItalic.ttf */; };
+		C080483723F96F6400784035 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C080482C23F96F0800784035 /* Lato-Bold.ttf */; };
+		C080483823F96F6400784035 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C080482D23F96F0800784035 /* Lato-BoldItalic.ttf */; };
+		C080483923F96F6400784035 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C080482B23F96F0800784035 /* Lato-Italic.ttf */; };
+		C080483A23F96F6400784035 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C080482F23F96F0800784035 /* Lato-Light.ttf */; };
+		C080483B23F96F6400784035 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C080483223F96F0900784035 /* Lato-LightItalic.ttf */; };
+		C080483C23F96F6400784035 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C080483423F96F0900784035 /* Lato-Regular.ttf */; };
+		C080483D23F96F6400784035 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C080483123F96F0900784035 /* Lato-Thin.ttf */; };
+		C080483E23F96F6400784035 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C080483323F96F0900784035 /* Lato-ThinItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +54,7 @@
 		C08047D023F9430500784035 /* NobelLaureates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NobelLaureates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C08047D323F9430500784035 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C08047D523F9430500784035 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C08047D723F9430500784035 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C08047DA23F9430500784035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C08047D723F9430500784035 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C08047DC23F9430700784035 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C08047DF23F9430700784035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C08047E123F9430700784035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +64,23 @@
 		C08047F123F9430700784035 /* NobelLaureatesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NobelLaureatesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C08047F523F9430700784035 /* NobelLaureatesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NobelLaureatesUITests.swift; sourceTree = "<group>"; };
 		C08047F723F9430700784035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C080480323F9436100784035 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		C080480523F9437900784035 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		C080480723F9439800784035 /* nobel-prize-laureates.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "nobel-prize-laureates.json"; sourceTree = "<group>"; };
+		C080480923F943B100784035 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		C080480B23F9446400784035 /* ApiServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServiceTests.swift; sourceTree = "<group>"; };
+		C080480D23F94BAB00784035 /* LaureateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaureateCell.swift; sourceTree = "<group>"; };
+		C080480F23F94BDB00784035 /* LaureateCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaureateCellViewModel.swift; sourceTree = "<group>"; };
+		C080482B23F96F0800784035 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		C080482C23F96F0800784035 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		C080482D23F96F0800784035 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C080482E23F96F0800784035 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		C080482F23F96F0800784035 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		C080483023F96F0900784035 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		C080483123F96F0900784035 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		C080483223F96F0900784035 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		C080483323F96F0900784035 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		C080483423F96F0900784035 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +131,17 @@
 		C08047D223F9430500784035 /* NobelLaureates */ = {
 			isa = PBXGroup;
 			children = (
+				C080482A23F96C7600784035 /* fonts */,
+				C080481523F9551B00784035 /* LaureateCell */,
+				C080481423F9550E00784035 /* Service */,
+				C080481323F954FE00784035 /* Main */,
 				C08047D323F9430500784035 /* AppDelegate.swift */,
+				C080480723F9439800784035 /* nobel-prize-laureates.json */,
 				C08047D523F9430500784035 /* SceneDelegate.swift */,
-				C08047D723F9430500784035 /* ViewController.swift */,
-				C08047D923F9430500784035 /* Main.storyboard */,
 				C08047DC23F9430700784035 /* Assets.xcassets */,
 				C08047DE23F9430700784035 /* LaunchScreen.storyboard */,
 				C08047E123F9430700784035 /* Info.plist */,
+				C080480923F943B100784035 /* Constant.swift */,
 			);
 			path = NobelLaureates;
 			sourceTree = "<group>";
@@ -113,6 +149,7 @@
 		C08047E923F9430700784035 /* NobelLaureatesTests */ = {
 			isa = PBXGroup;
 			children = (
+				C080480B23F9446400784035 /* ApiServiceTests.swift */,
 				C08047EA23F9430700784035 /* NobelLaureatesTests.swift */,
 				C08047EC23F9430700784035 /* Info.plist */,
 			);
@@ -126,6 +163,49 @@
 				C08047F723F9430700784035 /* Info.plist */,
 			);
 			path = NobelLaureatesUITests;
+			sourceTree = "<group>";
+		};
+		C080481323F954FE00784035 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C08047D723F9430500784035 /* MainViewController.swift */,
+				C080480323F9436100784035 /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C080481423F9550E00784035 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C080480523F9437900784035 /* ApiService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C080481523F9551B00784035 /* LaureateCell */ = {
+			isa = PBXGroup;
+			children = (
+				C080480D23F94BAB00784035 /* LaureateCell.swift */,
+				C080480F23F94BDB00784035 /* LaureateCellViewModel.swift */,
+			);
+			path = LaureateCell;
+			sourceTree = "<group>";
+		};
+		C080482A23F96C7600784035 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C080483023F96F0900784035 /* Lato-Black.ttf */,
+				C080482E23F96F0800784035 /* Lato-BlackItalic.ttf */,
+				C080482C23F96F0800784035 /* Lato-Bold.ttf */,
+				C080482D23F96F0800784035 /* Lato-BoldItalic.ttf */,
+				C080482B23F96F0800784035 /* Lato-Italic.ttf */,
+				C080482F23F96F0800784035 /* Lato-Light.ttf */,
+				C080483223F96F0900784035 /* Lato-LightItalic.ttf */,
+				C080483423F96F0900784035 /* Lato-Regular.ttf */,
+				C080483123F96F0900784035 /* Lato-Thin.ttf */,
+				C080483323F96F0900784035 /* Lato-ThinItalic.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +312,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C080483523F96F6400784035 /* Lato-Black.ttf in Resources */,
+				C080483623F96F6400784035 /* Lato-BlackItalic.ttf in Resources */,
+				C080483723F96F6400784035 /* Lato-Bold.ttf in Resources */,
+				C080483823F96F6400784035 /* Lato-BoldItalic.ttf in Resources */,
+				C080483923F96F6400784035 /* Lato-Italic.ttf in Resources */,
+				C080483A23F96F6400784035 /* Lato-Light.ttf in Resources */,
+				C080483B23F96F6400784035 /* Lato-LightItalic.ttf in Resources */,
+				C080483C23F96F6400784035 /* Lato-Regular.ttf in Resources */,
+				C080483D23F96F6400784035 /* Lato-Thin.ttf in Resources */,
+				C080483E23F96F6400784035 /* Lato-ThinItalic.ttf in Resources */,
 				C08047E023F9430700784035 /* LaunchScreen.storyboard in Resources */,
+				C080480823F9439800784035 /* nobel-prize-laureates.json in Resources */,
 				C08047DD23F9430700784035 /* Assets.xcassets in Resources */,
-				C08047DB23F9430500784035 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +349,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C08047D823F9430500784035 /* ViewController.swift in Sources */,
+				C08047D823F9430500784035 /* MainViewController.swift in Sources */,
+				C080481023F94BDB00784035 /* LaureateCellViewModel.swift in Sources */,
+				C080480E23F94BAB00784035 /* LaureateCell.swift in Sources */,
+				C080480623F9437900784035 /* ApiService.swift in Sources */,
 				C08047D423F9430500784035 /* AppDelegate.swift in Sources */,
 				C08047D623F9430500784035 /* SceneDelegate.swift in Sources */,
+				C080480423F9436100784035 /* MainViewModel.swift in Sources */,
+				C080480A23F943B100784035 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C080480C23F9446400784035 /* ApiServiceTests.swift in Sources */,
 				C08047EB23F9430700784035 /* NobelLaureatesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +393,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C08047D923F9430500784035 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C08047DA23F9430500784035 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C08047DE23F9430700784035 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
